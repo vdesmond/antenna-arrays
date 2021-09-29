@@ -16,7 +16,7 @@ camzoom(1.1)        % zoom into scene
 
 %% Initialize video
 myVideo = VideoWriter(append('freq_antenna_',num2str(N))); %open video file
-myVideo.FrameRate = 30;  %can adjust this, 5 - 10 works well for me
+myVideo.FrameRate = 10;  %can adjust this, 5 - 10 works well for me
 myVideo.Quality = 100;
 open(myVideo)
 
